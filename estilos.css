@@ -1,0 +1,44 @@
+.header{
+	border: solid red 3px;
+	height: 50px;
+
+}
+
+.main{
+	border: solid yellow 3px;
+	height: 190px;
+
+}
+
+.divcards{
+	border: solid blue 3px;
+	height: 280px;
+
+}
+.footer{
+	border: solid green 3px;
+	height: 50px;
+}
+
+.cards{
+    
+	display: flex;
+	justify-content: center;
+	width:50%;
+	height:50%;
+	padding-top:8px;
+}
+
+.boton{
+    display: flex;
+    justify-content: start;
+}
+
+.imgpx{
+	display: flex;
+	justify-content:center;
+		}
+
+
+
+
