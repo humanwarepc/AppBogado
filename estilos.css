@@ -1,23 +1,76 @@
+.logo{
+	height: 55px;
+}
+
+.nav-custom{
+	height: 60px;
+	background-color: white;
+	
+}
+
+
+.button-custom{
+	/*background-color: #00B8D4;*/
+	background-color: #D50000;
+	border: none;
+}
+
+
+
+
+
+
 .header{
-	border: solid red 3px;
-	height: 50px;
+	/*border: solid red 3px;*/
+	height: 60px;
 
 }
 
 .main{
-	border: solid yellow 3px;
+	/*border: solid yellow 3px;*/
 	height: 190px;
 
 }
 
 .divcards{
-	border: solid blue 3px;
-	height: 280px;
+	/*border: solid blue 3px;*/
+	height: 360px;
 
 }
 .footer{
-	border: solid green 3px;
+	/*border: solid green 3px;*/
 	height: 50px;
+padding-top: 7px;
+}
+
+.carousel{
+
+	height:190px;
+}
+
+.imgCarousel{
+	height: 190px;
+
+
+}
+
+.boton-footer{
+	border:solid 7px white;
+	background-color: #D50000;
+	box-shadow: 2px 3px 8px #000000;
+	border: 0px;
+	font-family: Helvetica;
+	text-shadow: 1px 2px 5px #000000;
+}
+
+.alerta-enviada{
+	display: none;
+	height: 92%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
 .cards{
@@ -34,8 +87,104 @@
     justify-content: start;
 }
 
-.imgpx{
+.imgpx-1{
+	/*border: solid red 1px;*/
+	background-image: url(img/manejar.jpg);
+	background-size: cover;
+	height: 110px;
+}
+
+.imgpx-2{
+	/*border: solid red 1px;*/
+	background-image: url(img/calle.jpg);
+	background-size: cover;
+	height: 110px;
+}
+
+.imgpx-3{
+	/*border: solid red 1px;*/
+	background-image: url(img/acoso.png);
+	background-size: cover;
+	height: 110px;
+}
+
+.imgpx-4{
+	/*border: solid red 1px;*/
+	background-image: url(img/marihuana.png);
+	background-size: cover;
+	height: 110px;
+}
+
+.imgpx-5{
+	/*border: solid red 1px;*/
+	background-image: url(img/discri.jpg);
+	background-size: cover;
+	height: 110px;
+}
+
+.imgpx-6{
+	/*border: solid red 1px;*/
+	background-image: url(img/poli.jpg);
+	background-size: cover;
+	height: 110px;
+}
+
+
+.boton-cards{
+	/*border: solid red 2px;*/
+	height: 20px;
+
+}
+
+.texto-card-container{
+	/*border: solid green 1px;*/
+	height: 60px;
 	display: flex;
-	justify-content:center;
-	
-		}
+	padding-bottom: 15px;
+	background-color: none;
+	border:none;
+}
+
+.cards-container{
+	/*border: solid 1px blue;*/
+	height: 180px;
+}
+
+.cards-container-2{
+	/*border: solid 1px blue;*/
+	height: 180px;
+}
+
+.card-custom{
+	box-shadow: 1px 2px 3px #212121;
+}
+.navbar-menu{
+	z-index: 100;
+	background-color: white;
+	border: solid 1px #0277BD;
+}
+
+.texto-tarjeta{
+	border: solid green 1px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.estilo-texto{
+	font-family: Helvetica;
+	font-size: 13px;
+	font-style: black;
+}
+
+.cartita{
+
+	display: none;
+	height: 90%;
+	width: 80%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+}
