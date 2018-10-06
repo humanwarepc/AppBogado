@@ -10,8 +10,8 @@
 
 
 .button-custom{
-	/*background-color: #00B8D4;*/
-	background-color: #D50000;
+	background-color: #00B8D4;
+	/*background-color: #D50000;*/
 	border: none;
 }
 
@@ -177,14 +177,4 @@ padding-top: 7px;
 	font-style: black;
 }
 
-.cartita{
 
-	display: none;
-	height: 90%;
-	width: 80%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
-
-}
